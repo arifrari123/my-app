@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Free Fire Extractor</string>
+    <string name="subtitle">Live Token &amp; Profile Inspector</string>
+    <string name="release_badge">OB55 (v1.132.11)</string>
+    <string name="tab_guest">Guest Account</string>
+    <string name="tab_jwt">Direct JWT Token</string>
+    <string name="label_uid">Guest UID (8–12 Digits)</string>
+    <string name="label_password">Account Password (64 chars Hex)</string>
+    <string name="label_jwt">JWT Bearer Token</string>
+    <string name="hint_uid">e.g. 8318976724</string>
+    <string name="hint_password">Paste 64-character hex password</string>
+    <string name="hint_jwt">Paste Bearer eyJ... token</string>
+    <string name="btn_continue">Continue to Device Setup</string>
+    <string name="btn_extract_jwt">Extract Profile from JWT</string>
+    <string name="paste">Paste</string>
+    <string name="recent_accounts">Quick Load Recent Accounts</string>
+    <string name="anti_ban_notice">Clean ZTE Blade A35 Signature • 100% Anti-Ban Protocol</string>
+</resources>

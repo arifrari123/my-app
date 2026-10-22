@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Device Environment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose device signature for live MajorLogin token generation:"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="4dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_device_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/rb_device_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZTE Blade A35 (Clean Mobile 100% Anti-Ban)"
+            android:textSize="14sp"
+            android:checked="true"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_device_emulator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Pixel 4 / PC Emulator (Fast Mode)"
+            android:textSize="14sp"
+            android:padding="8dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_confirm_device"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="Confirm &amp; Generate Token"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
